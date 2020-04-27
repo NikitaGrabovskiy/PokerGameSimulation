@@ -1,0 +1,8 @@
+
+Qsquid:S1068	".Remove this unused "allPlayers" private field.(ğèáëüÿÿÿÿ8æÑåõš.
+¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÙ¶üÿÿÿÿ8¦ğãõš.
+csquid:UnusedPrivateMethod"2Remove this unused private "startNewRound" method.(æÙ¶üÿÿÿÿ8¦ğãõš.
+Rsquid:S1068"/Remove this unused "roundNumber" private field.(Š‹Ø”üÿÿÿÿ8õŠæõš.
+Zsquid:UnusedPrivateMethod".Remove this unused private "startGame" method.(æôÈ8¦ğãõš.
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æôÈ8¦ğãõš.
+Usquid:S1068"2Remove this unused "hasHumanPlayer" private field.(½„¸Äşÿÿÿÿ8ç©Èõš.

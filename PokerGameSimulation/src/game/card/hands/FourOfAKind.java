@@ -1,14 +1,41 @@
 package game.card.hands;
 
-public class FourOfAKind implements Hand {
+import game.card.Rank;
+import game.gameutil.staticdata.RanksValue;
 
-    @Override
-    public void getCards() {
+public class FourOfAKind implements Hand{
 
+    private static final int value = 8;
+
+    private Rank rank;
+
+    public FourOfAKind(Rank rank){
+        this.rank = rank;
+    }
+
+
+    public int getValue() {
+        return value;
+    }
+
+    public Rank getRank() {
+        return rank;
     }
 
     @Override
-    public int compareToTheSameTypeOfHand() {
+    public String toString() {
+        return "FourOfAKind{" +
+                 rank +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if(RanksValue.rankValues.get(this.rank)>RanksValue.rankValues.get(((FourOfAKind)o).getRank())){
+            return 1;
+        }else if(RanksValue.rankValues.get(this.rank)<RanksValue.rankValues.get(((FourOfAKind)o).getRank())){
+            return -1;
+        }
         return 0;
     }
 }

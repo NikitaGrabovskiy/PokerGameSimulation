@@ -1,8 +1,6 @@
 package game.card.hands;
 
-public interface Hand {
+public interface Hand extends Comparable {
 
-    void getCards();
-
-    int compareToTheSameTypeOfHand();
+    int getValue();
 }

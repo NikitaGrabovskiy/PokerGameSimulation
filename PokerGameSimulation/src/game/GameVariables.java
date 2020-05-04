@@ -11,7 +11,6 @@ import java.util.Map;
 
 public class GameVariables {
 
-
     public static Communitycards communitycards;
 
     public static int currentPlayerNumber;
@@ -44,7 +43,7 @@ public class GameVariables {
         currentPlayerNumber = 1;
         moneyPot = 0;
         shuffledDeck = deckGenerator.getNewShuffledDeck();
-
+        allPlayers.values().stream().forEach(a ->a.setStillInTheGame(true));
     }
 
     public static void prepareGameVariablesForRound() {

@@ -8,9 +8,21 @@ public class HumanPlayer implements Player {
 
     private int moneyAmount;
 
+    private boolean stillInTheGame;
+
+
+
 
     public TwoCardsInPlayersHands getTwoCardsInPlayersHands() {
         return twoCardsInPlayersHands;
+    }
+
+    public boolean isStillInTheGame() {
+        return stillInTheGame;
+    }
+
+    public void setStillInTheGame(boolean stillInTheGame) {
+        this.stillInTheGame = stillInTheGame;
     }
 
     public void setTwoCardsInPlayersHands(TwoCardsInPlayersHands twoCardsInPlayersHands) {

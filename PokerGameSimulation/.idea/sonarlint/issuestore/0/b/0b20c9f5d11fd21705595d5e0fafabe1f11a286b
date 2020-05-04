@@ -1,0 +1,28 @@
+
+Isquid:S1612",Replace this lambda with a method reference.(å˜Šh8ìïƒ….
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŸÛÃ¤8ëœ˜ëœ.
+Usquid:S3655E"7Call "Optional#isPresent()" before accessing the value.(ë¨Ùş8 Å¥ìœ.
+Zsquid:S3655|"7Call "Optional#isPresent()" before accessing the value.(™¬ø«øÿÿÿÿ8³²„….
+Osquid:S1612;",Replace this lambda with a method reference.(âÆ¼«ûÿÿÿÿ8ëŞëœ.
+Isquid:S1172S"&Remove these unused method parameters.(’±®Úıÿÿÿÿ8à¡£•.
+ssquid:UnusedPrivateMethod{"BRemove this unused private "findLargestRankInTheCardArray" method.(¨„½…úÿÿÿÿ8ù¯‚….
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Î¤Õø8÷ß¢ìœ.
+…squid:S1488ƒ"fImmediately return this expression instead of assigning it to the temporary variable "sortedCardList".(¨‰ïå8ù¯‚….
+Osquid:S1612B",Replace this lambda with a method reference.(ÙàŒúÿÿÿÿ8Ú¹òëœ.
+Osquid:S1612-",Replace this lambda with a method reference.(âÆ¼«ûÿÿÿÿ8è–ëœ.
+Zsquid:S36550"7Call "Optional#isPresent()" before accessing the value.(—–Ïùÿÿÿÿ8ù©Œìœ.
+Zsquid:S3655I"7Call "Optional#isPresent()" before accessing the value.( µóÿÿÿÿÿ8’ñ¡ìœ.
+|squid:UnusedPrivateMethod‚"PRemove this unused private "getSortedListFromArrayWithSameValuesRemoved" method.(ò¥8ù¯‚….
+Wsquid:S3400x"9Remove this method and declare a constant for this value.(”·³›8ù¯‚….
+Dsquid:S1168O"&Return an empty array instead of null.(¥¹ï8 Ã‰ëœ.
+ squid:S11583"}Call the static method Integer.compare(...) instead of instantiating a temporary object to perform this to string conversion.(‹˜¦÷ùÿÿÿÿ8Ê¿ìœ.
+V
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ë¨Ùş8 Å¥ìœ.
+Csquid:S1172v"&Remove these unused method parameters.(ôár8ù¯‚….
+Dsquid:S21293"!Remove this "Integer" constructor(‹˜¦÷ùÿÿÿÿ8˜Ëìœ.
+Dsquid:S21293"!Remove this "Integer" constructor(‹˜¦÷ùÿÿÿÿ8ùšìœ.
+csquid:UnusedPrivateMethodv"8Remove this unused private "compareLargestCards" method.(ôár8ù¯‚….
+isquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(Õú³ò8à¡£•.
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ÊÓ
+Wsquid:S3400r"9Remove this method and declare a constant for this value.(”·³›8íåß•.

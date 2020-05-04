@@ -4,6 +4,8 @@ import game.card.TwoCardsInPlayersHands;
 
 public class ComputerPlayer implements Player {
 
+    private boolean stillInTheGame;
+
     private TwoCardsInPlayersHands twoCardsInPlayersHands;
 
     public TwoCardsInPlayersHands getTwoCardsInPlayersHands() {
@@ -64,6 +66,14 @@ public class ComputerPlayer implements Player {
     @Override
     public void call() {
 
+    }
+
+    public boolean isStillInTheGame() {
+        return stillInTheGame;
+    }
+
+    public void setStillInTheGame(boolean stillInTheGame) {
+        this.stillInTheGame = stillInTheGame;
     }
 
 }

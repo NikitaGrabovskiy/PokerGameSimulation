@@ -2,10 +2,10 @@ package game.card;
 
 public class Communitycards {
 
-    public Communitycards(Card cardOne, Card cardTwo, Card cardThree){
-        this.cardOne=cardOne;
-        this.cardTwo=cardTwo;
-        this.cardThree=cardThree;
+    public Communitycards(Card cardOne, Card cardTwo, Card cardThree) {
+        this.cardOne = cardOne;
+        this.cardTwo = cardTwo;
+        this.cardThree = cardThree;
     }
 
     private Card cardOne;
@@ -46,12 +46,11 @@ public class Communitycards {
 
     @Override
     public String toString() {
-        return "Communitycards{" +
-                "cardOne=" + cardOne +
-                ", cardTwo=" + cardTwo +
-                ", cardThree=" + cardThree +
-                ", cardFour=" + cardFour +
-                ", cardFive=" + cardFive +
-                '}';
+        return
+                "     " + cardOne +
+                        "     " + cardTwo +
+                        "     " + cardThree +
+                        "     " + cardFour +
+                        "     " + cardFive;
     }
 }

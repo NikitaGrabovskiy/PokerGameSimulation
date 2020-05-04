@@ -1,31 +1,24 @@
 package game.card;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TwoCardsInPlayersHands {
 
+    private List<Card> cards;
 
     public TwoCardsInPlayersHands(Card cardOne, Card cardTwo) {
-        this.cardOne = cardOne;
-        this.cardTwo = cardTwo;
+        cards = new ArrayList<>();
+        cards.add(cardOne);
+        cards.add(cardTwo);
     }
 
-    private Card cardOne;
-    private Card cardTwo;
-
-    public Card getCardOne() {
-        return cardOne;
+    public List<Card> getCards() {
+        return cards;
     }
-
-    public Card getCardTwo() {
-        return cardTwo;
-    }
-
-
 
     @Override
     public String toString() {
-        return "TwoCardsInPlayersHands{" +
-                "cardOne=" + cardOne +
-                ", cardTwo=" + cardTwo +
-                '}';
+        return ""+cards;
     }
 }

@@ -4,6 +4,7 @@ import game.gamestages.bettingRounds.FlopRound;
 import game.gamestages.bettingRounds.PreflopRound;
 import game.gamestages.bettingRounds.RiverRound;
 import game.gamestages.bettingRounds.TurnRound;
+import game.gamestages.resultsEvaluator.ResultsEvaluator;
 
 public class Game {
 
@@ -15,9 +16,8 @@ public class Game {
         new FlopRound().startRound();
         new TurnRound().startRound();
         new RiverRound().startRound();
-
+        new ResultsEvaluator().evaluateResults();
         GameVariables.afterGameIsOver();
-
 
     }
 

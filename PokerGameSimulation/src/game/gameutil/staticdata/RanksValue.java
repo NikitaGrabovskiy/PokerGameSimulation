@@ -27,19 +27,5 @@ public class RanksValue {
         rankValues.put(Rank.KING,13);
         rankValues.put(Rank.ACE,14);
 
-/*        rankValuesForStraight.put(1, Rank.ACE);
-        rankValuesForStraight.put(2, Rank.TWO);
-        rankValuesForStraight.put(3, Rank.THREE);
-        rankValuesForStraight.put(4, Rank.FOUR);
-        rankValuesForStraight.put(5, Rank.FIVE);
-        rankValuesForStraight.put(6, Rank.SIX);
-        rankValuesForStraight.put(7, Rank.SEVEN);
-        rankValuesForStraight.put(8, Rank.EIGHT);
-        rankValuesForStraight.put(9, Rank.NINE);
-        rankValuesForStraight.put(10,Rank.TEN);
-        rankValuesForStraight.put(11, Rank.JACK);
-        rankValuesForStraight.put(12, Rank.QUEEN);
-        rankValuesForStraight.put(13, Rank.KING);
-        rankValuesForStraight.put(14, Rank.ACE);*/
     }
 }

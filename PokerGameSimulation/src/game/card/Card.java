@@ -1,5 +1,7 @@
 package game.card;
 
+import game.gameutil.staticdata.CardSymbols;
+
 public final class Card {
 
     private Rank rank;
@@ -21,9 +23,8 @@ public final class Card {
 
     @Override
     public String toString() {
-        return "card{" +
-                "rank=" + rank +
-                ", suit=" + suit +
-                '}';
+        return
+                "    " + CardSymbols.rankSymbols.get(rank) +
+                        " " + CardSymbols.suitSymbols.get(suit);
     }
 }

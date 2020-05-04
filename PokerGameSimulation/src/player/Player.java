@@ -28,4 +28,8 @@ public interface Player {
 
     void setTwoCardsInPlayersHands(TwoCardsInPlayersHands twoCardsInPlayersHands);
 
+    boolean isStillInTheGame();
+
+    void setStillInTheGame(boolean stillInTheGame);
+
 }

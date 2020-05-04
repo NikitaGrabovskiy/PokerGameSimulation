@@ -1,0 +1,9 @@
+
+v
+squid:S135)"YReduce the total number of break and continue statements in this loop to use at most one.(¹ÁÅ8›¤¤åœ.
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Š™ß×ûÿÿÿÿ8âí«Şœ.
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–²¡ƒúÿÿÿÿ
+nsquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(¼‚’Øüÿÿÿÿ8›¤¤åœ.
+dsquid:S4034["FReplace this "filter().findAny().isPresent()" chain with "anyMatch()".(¼½ïÈ8›¤¤åœ.
+Ssquid:S3655`"7Call "Optional#isPresent()" before accessing the value.(Ñª*8ãËé›.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(š†”ìûÿÿÿÿ8¾à¿ëœ.

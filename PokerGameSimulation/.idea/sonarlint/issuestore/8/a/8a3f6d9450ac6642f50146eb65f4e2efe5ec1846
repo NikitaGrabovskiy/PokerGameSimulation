@@ -1,0 +1,17 @@
+
+Zsquid:S1444"<Make this "public static playerWhoPutSmallBlind" field final(«öƒ®8ĞÀ”¿›.
+Hsquid:S2386C"%Make member "allPlayers" "protected".(¢µíÃúÿÿÿÿ8ĞÀ”¿›.
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Šª…‚8áûÁ›.
+”"squid:ClassVariableVisibilityCheck"ZMake communitycards a static final constant or non-public and provide accessors if needed.(ƒäå»ûÿÿÿÿ8ÿ÷ìÀ›.
+Usquid:S1444"2Make this "public static shuffledDeck" field final(¢‘ÿ¨ûÿÿÿÿ8ĞÀ”¿›.
+‰"squid:ClassVariableVisibilityCheck"TMake moneyPot a static final constant or non-public and provide accessors if needed.(¬ÇÊª8ĞÀ”¿›.
+’"squid:ClassVariableVisibilityCheck"XMake shuffledDeck a static final constant or non-public and provide accessors if needed.(¢‘ÿ¨ûÿÿÿÿ8ĞÀ”¿›.
+Nsquid:S1444"0Make this "public static gameNumber" field final(éé¤ÿ8¥‚Ò¿›.
+™"squid:ClassVariableVisibilityCheck"_Make currentPlayerNumber a static final constant or non-public and provide accessors if needed.(Ğ¿¶¦ùÿÿÿÿ8¦É£¿›.
+\squid:S1444"9Make this "public static currentPlayerNumber" field final(Ğ¿¶¦ùÿÿÿÿ8Ğô¨¿›.
+Wsquid:S1444"4Make this "public static communitycards" field final(ƒäå»ûÿÿÿÿ8×şïÀ›.
+Ssquid:S1444"0Make this "public static allPlayers" field final(ÅçÙ„úÿÿÿÿ8ĞÀ”¿›.
+‹"squid:ClassVariableVisibilityCheck"VMake gameNumber a static final constant or non-public and provide accessors if needed.(éé¤ÿ8ĞÀ”¿›.
+"squid:ClassVariableVisibilityCheck"VMake allPlayers a static final constant or non-public and provide accessors if needed.(ÅçÙ„úÿÿÿÿ8ĞÀ”¿›.
+Lsquid:S1444".Make this "public static moneyPot" field final(¬ÇÊª8ĞÀ”¿›.
+—"squid:ClassVariableVisibilityCheck"bMake playerWhoPutSmallBlind a static final constant or non-public and provide accessors if needed.(«öƒ®8ĞÀ”¿›.

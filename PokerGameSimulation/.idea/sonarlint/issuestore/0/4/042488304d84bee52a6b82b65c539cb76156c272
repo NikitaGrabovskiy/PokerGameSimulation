@@ -1,0 +1,9 @@
+
+Ksquid:S1172?"-Remove this unused method parameter "player".(³Á8«ç––.
+Isquid:S1905P"+Remove this unnecessary cast to "TwoPairs".(ˆ™°Ë8áÁĞ±œ.
+_squid:S1612%"<Replace this lambda with method reference 'Objects::isNull'.(ÅÒ­Œùÿÿÿÿ8ôÛª±œ.
+Jsquid:S1905R"'Remove this unnecessary cast to "Pair".(¢ñ¢ ùÿÿÿÿ8™¿Ò±œ.
+Qsquid:S1905F".Remove this unnecessary cast to "FourOfAKind".(øŞÈûÿÿÿÿ8¿¢É±œ.
+Msquid:S1905N"/Remove this unnecessary cast to "ThreeOfAKind".(Õ’÷ê8õÌÏ±œ.
+Jsquid:S1905H",Remove this unnecessary cast to "FullHouse".(ÈèÀÙ8˜‘Ì±œ.
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÆåòÑ

@@ -9,6 +9,7 @@ import game.gameutil.staticdata.RanksValue;
 import player.Player;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -17,21 +18,17 @@ public class ResultsEvaluator {
 
     public void evaluateResults() {
 
-        System.out.println(findWinners());
-
-/*        System.out.println(GameVariables.communitycards);
+        System.out.println(GameVariables.communitycards);
         System.out.println("************************************");
         GameVariables.allPlayers.values()
-                .forEach(a -> System.out.println(a.getTwoCardsInPlayersHands()+"   " + mapOfPlayerHands.get(a)));
-        System.out.println("************************************");*/
+                .forEach(a -> System.out.println(a.getTwoCardsInPlayersHands()));
+        System.out.println("************************************");
+        System.out.println("WINNERS ARE :");
+        Arrays.asList(findWinners()).stream().forEach(a -> System.out.println(a.getTwoCardsInPlayersHands()));
     }
 
     public Player[] findWinners() {
-
-        Player[] players;
-
         BestHandsFinder bestHandsFinder = new BestHandsFinder();
-
         Map<Hand, Player> mapOfPlayerHands = new ConcurrentHashMap<>();
 
         GameVariables.allPlayers
@@ -51,29 +48,27 @@ public class ResultsEvaluator {
                 .filter(a -> a.getValue() != winningHand.getValue())
                 .forEach(a -> mapOfPlayerHands.remove(a));
 
+        Player[] players;
 
         if (mapOfPlayerHands.size() == 1) {
             players = new Player[1];
             players[0] = mapOfPlayerHands.values().stream().findAny().get();
-            return players;
         } else {
-           return findWinnersWithSameValueHands(mapOfPlayerHands);
+           players = findWinnersWithSameValueHands(mapOfPlayerHands);
         }
 
+        System.out.println("Winning hand is " + mapOfPlayerHands.keySet().stream().findAny().get());
+
+        return players;
     }
 
     private Player[] findWinnersWithSameValueHands(Map<Hand, Player> mapOfPlayerHands) {
 
-        System.out.println(mapOfPlayerHands);
         List<Player> winningPlayers = new ArrayList<>();
         Hand hand = mapOfPlayerHands.keySet()
                 .stream()
                 .max((a, b) -> a.compareTo(b))
                 .get();
-
-        System.out.println(hand);
-
-        System.out.println(mapOfPlayerHands.keySet());
 
         mapOfPlayerHands.keySet()
                 .stream()
@@ -81,7 +76,7 @@ public class ResultsEvaluator {
                 .forEach(a -> winningPlayers.add(mapOfPlayerHands.get(a)));
 
 
-        if (hand instanceof StraightFlush) {
+ /*       if (hand instanceof StraightFlush) {
 
         } else if (hand instanceof FourOfAKind) {
 
@@ -115,7 +110,7 @@ public class ResultsEvaluator {
 
         } else if (hand instanceof HighCard) {
 
-        }
+        }*/
 
 
         Player[] winningPlayersArray = new Player[winningPlayers.size()];
@@ -123,11 +118,6 @@ public class ResultsEvaluator {
         return winningPlayersArray;
     }
 
-
-    private void addWinningHands(Map<Hand, Player> mapOfPlayerHands, List<Player> winningPlayers) {
-
-
-    }
 
 
     public int compareTwoCardLists(List<Card> listOne, List<Card> listTwo) {

@@ -1,7 +1,6 @@
 package game.card.hands;
 
 import game.card.Card;
-import game.card.TwoCardsInPlayersHands;
 import game.gameutil.FindPattern.ListComparator;
 
 import java.util.Arrays;
@@ -13,15 +12,11 @@ public class Flush implements Hand {
 
     private static final int value = 6;
 
-    public void setCardsOfFlush(Card[] cardsOfFlush) {
-        this.cardsOfFlush = cardsOfFlush;
-        this.listComparator = new ListComparator();
-    }
-
     private Card[] cardsOfFlush;
 
     public Flush(Card [] cards){
         this.cardsOfFlush = cards;
+        this.listComparator = new ListComparator();
     }
 
     public int getValue() {

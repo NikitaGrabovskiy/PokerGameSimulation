@@ -39,7 +39,16 @@ public class SameRankFinder {
 
         } else if (setOfThreeValues.size() == 1 && setOfTwoValues.size() == 0) {
 
-            bestSameRankHand = new ThreeOfAKind(setOfThreeValues.stream().findAny().get());
+            Rank rank = setOfThreeValues.stream().findAny().get();
+
+            List<Card> cardsList = Arrays.asList(cards)
+                    .stream()
+                    .distinct()
+                    .filter(a -> a.getRank() != rank)
+                    .sorted((a, b) -> RanksValue.rankValues.get(b.getRank()).compareTo(RanksValue.rankValues.get(a.getRank())))
+                    .limit(2).collect(Collectors.toList());
+
+            bestSameRankHand = new ThreeOfAKind(setOfThreeValues.stream().findAny().get(), cardsList);
 
         } else if (setOfThreeValues.size() == 1 && setOfTwoValues.size() == 2) {
             setOfTwoValues.remove(setOfTwoValues.stream().min((a, b) -> a.compareTo(b)).get());
@@ -58,17 +67,15 @@ public class SameRankFinder {
 
             Rank rank = setOfTwoValues.stream().findAny().get();
 
-            List<Card> cardsList =Arrays.asList(cards)
+            List<Card> cardsList = Arrays.asList(cards)
                     .stream()
                     .distinct()
-                    .filter(a ->a.getRank()!=rank)
+                    .filter(a -> a.getRank() != rank)
                     .sorted((a, b) -> RanksValue.rankValues.get(b.getRank()).compareTo(RanksValue.rankValues.get(a.getRank())))
                     .limit(3).collect(Collectors.toList());
-
-            bestSameRankHand = new Pair(rank,cardsList);
+            bestSameRankHand = new Pair(rank, cardsList);
 
         }
-
 
         setOfFourValues = new HashSet();
         setOfThreeValues = new HashSet();
@@ -100,20 +107,16 @@ public class SameRankFinder {
         }
     }
 
-    private TwoPairs generateTwoPairs(Card [] cards){
+    private TwoPairs generateTwoPairs(Card[] cards) {
         Rank rankOfFirstPair = setOfTwoValues.stream().max((a, b) -> a.compareTo(b)).get();
         Rank rankOfSecondPair = setOfTwoValues.stream().min((a, b) -> a.compareTo(b)).get();
-        Card card =Arrays.asList(cards)
+        Card card = Arrays.asList(cards)
                 .stream()
                 .distinct()
-                .filter(a ->a.getRank()!=rankOfFirstPair)
-                .filter(a ->a.getRank()!=rankOfSecondPair)
+                .filter(a -> a.getRank() != rankOfFirstPair)
+                .filter(a -> a.getRank() != rankOfSecondPair)
                 .max((a, b) -> RanksValue.rankValues.get(a.getRank()).compareTo(RanksValue.rankValues.get(b.getRank())))
                 .get();
-
-        System.out.println(card);
-
-
         return new TwoPairs(
                 rankOfFirstPair,
                 rankOfSecondPair,

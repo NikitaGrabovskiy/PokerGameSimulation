@@ -24,74 +24,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee94d307-9b93-400c-ba4b-1ea21450f6dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ef97d9746e17f5b8aeff40fef52d356190b38b4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ef97d9746e17f5b8aeff40fef52d356190b38b4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/6167841ef44e495d2e3db605655087fb206160f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78505f3bc9b8473103dd94a007b06049bca5391e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78505f3bc9b8473103dd94a007b06049bca5391e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78bfbdcd1eb3c0c6a44b811815932629b1528f5b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90e83db0c1f5b190e213437fae794a2c38c0428b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90e83db0c1f5b190e213437fae794a2c38c0428b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6ab291bfaf4749fbaaae97a903deee388d27b12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d54a737b074dfa66b425a480e0ec01a6e15c5f74" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/GameVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/GameVariables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/Communitycards.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/Communitycards.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/TwoCardsInPlayersHands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/TwoCardsInPlayersHands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/Flush.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/Flush.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/FourOfAKind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/FourOfAKind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/FullHouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/FullHouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/Hand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/Hand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/HighCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/HighCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/RoyalFlush.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/Straight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/Straight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/StraightFlush.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/StraightFlush.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/ThreeOfAKind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/ThreeOfAKind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/TwoPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/card/hands/TwoPairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gamestages/resultsEvaluator/ResultsEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gamestages/resultsEvaluator/ResultsEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gamestages/resultsEvaluator/bestHandsFinder/BestHandsFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gamestages/resultsEvaluator/bestHandsFinder/BestHandsFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gamestages/resultsEvaluator/bestHandsFinder/HandFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gamestages/resultsEvaluator/bestHandsFinder/TempFindStraight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/FindPattern/SameRankFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/FindPattern/SameRankFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/FindPattern/SameSuitFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/FindPattern/SameSuitFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/FindPattern/Sequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/FindPattern/SequenceFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/FindPattern/SequenceFinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/staticdata/RanksValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/game/gameutil/staticdata/RanksValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/player/ComputerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/player/ComputerPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/player/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/player/HumanPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PokerGameSimulation/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokerGameSimulation/player/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/GameVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/Communitycards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/Communitycards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/TwoCardsInPlayersHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/TwoCardsInPlayersHands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/card/hands/Flush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/Flush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/hands/FourOfAKind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/FourOfAKind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/hands/FullHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/FullHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/hands/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/hands/HighCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/HighCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/hands/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/hands/RoyalFlush.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/hands/Straight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/Straight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/card/hands/StraightFlush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/StraightFlush.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/card/hands/ThreeOfAKind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/ThreeOfAKind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/card/hands/TwoPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/card/hands/TwoPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/ResultsEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/ResultsEvaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/bestHandsFinder/BestHandsFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/bestHandsFinder/BestHandsFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/bestHandsFinder/HandFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/bestHandsFinder/TempFindStraight.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game/gameutil/FindPattern/SameRankFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameutil/FindPattern/SameRankFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameutil/FindPattern/SameSuitFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameutil/FindPattern/SameSuitFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameutil/FindPattern/Sequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameutil/FindPattern/SequenceFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameutil/FindPattern/SequenceFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/gameutil/staticdata/RanksValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/gameutil/staticdata/RanksValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/ComputerPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/bestHandsFinder/BestHandsFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="277">
               <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/gameutil/FindPattern/LargestCardFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="221">
               <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,10 +65,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/card/hands/ThreeOfAKind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/card/hands/Flush.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/ResultsEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+            <state relative-caret-position="112">
+              <caret line="59" column="73" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/card/hands/TwoPairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/card/hands/FourOfAKind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/card/hands/Pair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-77">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="50" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,43 +136,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/game/card/hands/TwoPairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/card/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/gameutil/FindPattern/ListComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+            <state relative-caret-position="261">
+              <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/gameutil/FindPattern/SameRankFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+            <state relative-caret-position="1744">
+              <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,24 +225,24 @@
         <option value="$PROJECT_DIR$/src/game/card/TwoCardsInPlayersHands.java" />
         <option value="$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/bestHandsFinder/BestHandsFinder.java" />
         <option value="$PROJECT_DIR$/src/game/gameutil/FindPattern/LargestCardFinder.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/game/card/hands/Hand.java" />
-        <option value="$PROJECT_DIR$/src/game/card/hands/FourOfAKind.java" />
-        <option value="$PROJECT_DIR$/src/game/card/hands/ThreeOfAKind.java" />
         <option value="$PROJECT_DIR$/src/game/card/hands/Straight.java" />
         <option value="$PROJECT_DIR$/src/game/card/hands/StraightFlush.java" />
         <option value="$PROJECT_DIR$/src/game/card/hands/Pair.java" />
-        <option value="$PROJECT_DIR$/src/game/card/hands/Flush.java" />
         <option value="$PROJECT_DIR$/src/game/card/hands/HighCard.java" />
         <option value="$PROJECT_DIR$/src/game/card/hands/FullHouse.java" />
+        <option value="$PROJECT_DIR$/src/game/gameutil/FindPattern/ListComparator.java" />
+        <option value="$PROJECT_DIR$/src/game/card/hands/FourOfAKind.java" />
+        <option value="$PROJECT_DIR$/src/game/card/hands/ThreeOfAKind.java" />
         <option value="$PROJECT_DIR$/src/game/gameutil/FindPattern/SameRankFinder.java" />
         <option value="$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/ResultsEvaluator.java" />
-        <option value="$PROJECT_DIR$/src/game/gameutil/FindPattern/ListComparator.java" />
         <option value="$PROJECT_DIR$/src/game/card/hands/TwoPairs.java" />
+        <option value="$PROJECT_DIR$/src/game/card/hands/Flush.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1152" />
     <option name="height" value="641" />
@@ -314,6 +278,21 @@
               <item name="PokerGameSimulation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PokerGameSimulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PokerGameSimulation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="card" type="462c0819:PsiDirectoryNode" />
+              <item name="hands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PokerGameSimulation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PokerGameSimulation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="gamestages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,15 +302,6 @@
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="gamestages" type="462c0819:PsiDirectoryNode" />
               <item name="resultsEvaluator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PokerGameSimulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokerGameSimulation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="gamestages" type="462c0819:PsiDirectoryNode" />
-              <item name="resultsEvaluator" type="462c0819:PsiDirectoryNode" />
-              <item name="bestHandsFinder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PokerGameSimulation" type="b2602c69:ProjectViewProjectNode" />
@@ -348,12 +318,6 @@
               <item name="gameutil" type="462c0819:PsiDirectoryNode" />
               <item name="FindPattern" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PokerGameSimulation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PokerGameSimulation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -361,7 +325,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588625624262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588688458202" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
@@ -408,9 +375,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1152" height="641" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.054954953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30810812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -419,18 +385,18 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969034" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4981982" weight="0.3989071" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8216216" visible="true" weight="0.45901638" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7297297" visible="true" weight="0.05464481" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8198198" weight="0.45901638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="YouTrack" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20582879" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.17837837" side_tool="true" visible="true" weight="0.45901638" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4990991" weight="0.420765" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.27027026" side_tool="true" visible="true" weight="0.05464481" />
       <window_info anchor="bottom" id="SonarLint" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="TeamCity" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.20765027" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4981982" weight="0.20765027" />
       <window_info anchor="bottom" id="Reviews" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -693,30 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/card/hands/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/card/hands/FullHouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="47" column="137" selection-start-line="47" selection-start-column="137" selection-end-line="47" selection-end-column="137" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/card/hands/ThreeOfAKind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="31" column="94" selection-start-line="31" selection-start-column="94" selection-end-line="31" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,16 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/card/hands/Flush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/card/hands/Straight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -753,70 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/card/hands/FourOfAKind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" selection-start-line="33" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/gameutil/FindPattern/LargestCardFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/bestHandsFinder/BestHandsFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/gameutil/FindPattern/SameRankFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/gameutil/FindPattern/ListComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/ResultsEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        <state relative-caret-position="-38">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -825,20 +701,184 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/card/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="315">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/card/hands/TwoPairs.java">
+    <entry file="file://$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/bestHandsFinder/BestHandsFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+        <state relative-caret-position="277">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameutil/FindPattern/LargestCardFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/card/hands/ThreeOfAKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gameutil/FindPattern/SameRankFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1744">
+          <caret line="118" column="23" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/gamestages/resultsEvaluator/ResultsEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="59" column="73" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/card/hands/TwoPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/card/hands/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/card/hands/Flush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/card/hands/FourOfAKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PokerGameSimulation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

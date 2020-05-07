@@ -6,10 +6,12 @@ import game.gameutil.DeckGenerator;
 import player.ComputerPlayer;
 import player.Player;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GameVariables {
+
+    public static BigGameSession bigGameSession;
 
     public static Communitycards communitycards;
 
@@ -23,52 +25,53 @@ public class GameVariables {
 
     public static int playerWhoPutSmallBlind;
 
-    public static Map<Integer, Player> allPlayers;
+    public static List<Player> allPlayers;
 
     private static DeckGenerator deckGenerator;
 
 
-
-
-
     public static void prepareGameVariablesForBigGameSession() {
+        allPlayers = new ArrayList<>(6);
+        bigGameSession = new BigGameSession();
         generatePlayers();
         deckGenerator = new DeckGenerator();
         gameNumber = 0;
-        playerWhoPutSmallBlind =1;
+        playerWhoPutSmallBlind = 1;
     }
 
     public static void prepareGameVariablesForNewGame() {
-        playerWhoPutSmallBlind =1;
+        playerWhoPutSmallBlind = 1;
         currentPlayerNumber = 1;
         moneyPot = 0;
         shuffledDeck = deckGenerator.getNewShuffledDeck();
-        allPlayers.values().stream().forEach(a ->a.setStillInTheGame(true));
+        allPlayers.stream().forEach(a -> a.setStillInTheGame(true));
+        allPlayers.stream().forEach(a -> a.setTwoCardsInPlayersHands(null));
+        communitycards = null;
+
     }
 
     public static void prepareGameVariablesForRound() {
-        moneyPot = 0;
-        currentPlayerNumber =1;
+        currentPlayerNumber = 1;
     }
 
-    public static void afterGameIsOver(){
+    public static void afterGameIsOver() {
         gameNumber++;
 
         communitycards = null;
 
-        if((playerWhoPutSmallBlind+1)>allPlayers.size()){
-            playerWhoPutSmallBlind=1;
-        }else {
+        if ((playerWhoPutSmallBlind + 1) > allPlayers.size()) {
+            playerWhoPutSmallBlind = 1;
+        } else {
             playerWhoPutSmallBlind++;
         }
     }
 
-    private static void generatePlayers(){
-        allPlayers = new HashMap<>();
-        for(int x = 1; x<GameConstants.amountOfPlayersAtBeginningOfGame+1;x++){
+    private static void generatePlayers() {
+        for (int x = 1; x < GameConstants.amountOfPlayersAtBeginningOfGame + 1; x++) {
             ComputerPlayer computerPlayer = new ComputerPlayer();
             computerPlayer.setMoneyAmount(GameConstants.startingPlayersMoneyAmount);
-            allPlayers.put(x,computerPlayer);
+            computerPlayer.setNumber(x);
+            allPlayers.add(computerPlayer);
         }
     }
 

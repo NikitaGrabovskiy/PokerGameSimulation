@@ -20,8 +20,7 @@ public class ResultsEvaluator {
 
         System.out.println(GameVariables.communitycards);
         System.out.println("************************************");
-        GameVariables.allPlayers.values()
-                .forEach(a -> System.out.println(a.getTwoCardsInPlayersHands()));
+        GameVariables.allPlayers.forEach(a -> System.out.println(a.getTwoCardsInPlayersHands()));
         System.out.println("************************************");
         System.out.println("WINNERS ARE :");
         Arrays.asList(findWinners()).stream().forEach(a -> System.out.println(a.getTwoCardsInPlayersHands()));
@@ -32,7 +31,6 @@ public class ResultsEvaluator {
         Map<Hand, Player> mapOfPlayerHands = new ConcurrentHashMap<>();
 
         GameVariables.allPlayers
-                .values()
                 .stream()
                 .filter(a -> a.isStillInTheGame())
                 .forEach(a -> mapOfPlayerHands.put(bestHandsFinder.findBestHand(a), a));

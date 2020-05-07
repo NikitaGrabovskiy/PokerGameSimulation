@@ -73,6 +73,8 @@ public class DeckGenerator {
 
 
     public ShuffledDeck getNewShuffledDeck() {
+
+        setOfUsedValues = new HashSet<>();
         Card[] cards = new Card[52];
 
         Random random = new Random();

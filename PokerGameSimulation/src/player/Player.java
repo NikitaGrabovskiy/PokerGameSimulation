@@ -32,4 +32,12 @@ public interface Player {
 
     void setStillInTheGame(boolean stillInTheGame);
 
+    String getName();
+
+    void setName(String name);
+
+    int getNumber();
+
+    void setNumber(int number);
+
 }

@@ -10,7 +10,7 @@ public class RiverRound extends Round  {
     public void startRound() {
         GameVariables.prepareGameVariablesForRound();
         addOneCard();
-        for(int x = 1; x< GameVariables.allPlayers.size()+1;x++){
+        for(int x = 0; x< GameVariables.allPlayers.size();x++){
             GameVariables.allPlayers.get(x).playRiverRound();
         }
     }

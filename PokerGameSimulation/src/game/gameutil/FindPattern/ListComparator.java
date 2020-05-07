@@ -5,6 +5,7 @@ import game.card.Rank;
 import game.gameutil.staticdata.RanksValue;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ListComparator {
     public int compareTwoCardLists(List<Card> listOne, List<Card> listTwo ) {
@@ -16,8 +17,9 @@ public class ListComparator {
             } else if (RanksValue.rankValues.get(maxRankOfFirstHighCardHand) < RanksValue.rankValues.get(maxRankOfSecondHighCardHand)){
                 return -1;
             } else {
-                listOne.removeIf(a->a.getRank().equals(maxRankOfFirstHighCardHand));
-                listTwo.removeIf(a->a.getRank().equals(maxRankOfSecondHighCardHand));
+
+                listOne =listOne.stream().filter(a -> !a.getRank().equals(maxRankOfFirstHighCardHand)).collect(Collectors.toList());
+                listTwo =listTwo.stream().filter(a -> !a.getRank().equals(maxRankOfFirstHighCardHand)).collect(Collectors.toList());
             }
         }
         return 0;

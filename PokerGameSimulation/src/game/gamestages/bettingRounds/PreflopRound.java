@@ -5,7 +5,7 @@ import game.GameConstants;
 import game.GameVariables;
 import player.Player;
 
-import java.util.Map;
+import java.util.List;
 
 public class PreflopRound extends Round  {
 
@@ -14,7 +14,6 @@ public class PreflopRound extends Round  {
     public void startRound() {
         GameVariables.prepareGameVariablesForRound();
         setEverythingUpForFirstRound();
-
     }
 
 
@@ -25,14 +24,13 @@ public class PreflopRound extends Round  {
     }
 
 
-    private void giveTwoCardsForEachPlayer(Map<Integer, Player> players) {
+    private void giveTwoCardsForEachPlayer(List<Player> players) {
 
-        for(int x = 1; x < GameVariables.allPlayers.size()+1;x++){
+        for(int x = 0; x < GameVariables.allPlayers.size();x++){
 
             Player player = GameVariables.allPlayers.get(x);
             player.setTwoCardsInPlayersHands(new TwoCardsInPlayersHands(GameVariables.shuffledDeck.getNextCard(),
                     GameVariables.shuffledDeck.getNextCard()));
-            GameVariables.allPlayers.put(x,player);
         }
 
     }

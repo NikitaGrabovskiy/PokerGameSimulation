@@ -6,14 +6,15 @@ import game.GameVariables;
 public class FlopRound extends Round {
 
     //SECOND ROUND
-    /// Small blind is the first who will act
-
 
     @Override
     public void startRound() {
         GameVariables.prepareGameVariablesForRound();
         setCommunityCards();
-        for(int x = 0; x< GameVariables.allPlayers.size();x++){
+        for (int x = GameVariables.playerWhoPutSmallBlind; x < GameVariables.allPlayers.size(); x++) {
+            GameVariables.allPlayers.get(x).playFlopRound();
+        }
+        for (int x = GameVariables.playerWhoPutSmallBlind-1; x >=0; x--) {
             GameVariables.allPlayers.get(x).playFlopRound();
         }
     }

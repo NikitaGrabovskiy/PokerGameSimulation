@@ -1,9 +1,10 @@
 package player;
 
+import game.GameVariables;
 import game.card.TwoCardsInPlayersHands;
+import game.strategies.PreFlopRoundStrategy;
 
 public class ComputerPlayer implements Player {
-
 
     private boolean stillInTheGame;
 
@@ -11,9 +12,7 @@ public class ComputerPlayer implements Player {
 
     private int number;
 
-    public int getNumber() {
-        return number;
-    }
+    private String name;
 
     public void setNumber(int number) {
         this.number = number;
@@ -27,14 +26,13 @@ public class ComputerPlayer implements Player {
         this.twoCardsInPlayersHands = twoCardsInPlayersHands;
     }
 
+    public int getNumber() {
+        return number;
+    }
     private int moneyAmount;
-
-    private String name;
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -44,6 +42,10 @@ public class ComputerPlayer implements Player {
         moneyAmount -= deductionAmount;
     }
 
+    @Override
+    public void addToMoneyAmount(int winnings) {
+        moneyAmount +=winnings;
+    }
 
     @Override
     public int getMoneyAmount() {
@@ -56,7 +58,7 @@ public class ComputerPlayer implements Player {
 
     @Override
     public void playPreFlopRound() {
-
+        PreFlopRoundStrategy.preFlopRoundDecision(this);
     }
 
     @Override
@@ -80,8 +82,9 @@ public class ComputerPlayer implements Player {
     }
 
     @Override
-    public void raise() {
-
+    public void raise(int bet) {
+        GameVariables.moneyPot+=bet;
+        deductAmountFromPlayersMoney(bet);
     }
 
     @Override

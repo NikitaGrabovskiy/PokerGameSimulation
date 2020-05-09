@@ -17,7 +17,6 @@ public class Game {
         new TurnRound().startRound();
         new RiverRound().startRound();
         new ResultsEvaluator().evaluateResults();
-
     }
 
 

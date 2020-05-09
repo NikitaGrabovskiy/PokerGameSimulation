@@ -9,7 +9,7 @@ import game.gameutil.staticdata.RanksValue;
 import player.Player;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -17,16 +17,30 @@ import java.util.concurrent.ConcurrentHashMap;
 public class ResultsEvaluator {
 
     public void evaluateResults() {
+       GameVariables.winnerHandMap = generateWinnerHandMap();
 
-        System.out.println(GameVariables.communitycards);
-        System.out.println("************************************");
-        GameVariables.allPlayers.forEach(a -> System.out.println(a.getTwoCardsInPlayersHands()));
-        System.out.println("************************************");
-        System.out.println("WINNERS ARE :");
-        Arrays.asList(findWinners()).stream().forEach(a -> System.out.println(a.getTwoCardsInPlayersHands()));
+       if(GameVariables.winnerHandMap.size()==1){
+           GameVariables.winnerHandMap.keySet().stream()
+                   .findAny()
+                   .get()
+                   .addToMoneyAmount(GameVariables.moneyPot);
+       } else{
+           int winningShare = GameVariables.moneyPot/generateWinnerHandMap().size();
+           GameVariables.winnerHandMap.keySet()
+                   .stream()
+                   .forEach(a->a.addToMoneyAmount(winningShare));
+       }
+
+
+
+
+
+
+
+
     }
 
-    public Player[] findWinners() {
+    public Map<Player,Hand> generateWinnerHandMap() {
         BestHandsFinder bestHandsFinder = new BestHandsFinder();
         Map<Hand, Player> mapOfPlayerHands = new ConcurrentHashMap<>();
 
@@ -46,21 +60,23 @@ public class ResultsEvaluator {
                 .filter(a -> a.getValue() != winningHand.getValue())
                 .forEach(a -> mapOfPlayerHands.remove(a));
 
-        Player[] players;
+
+        Map<Player,Hand> winnerHandMap;
 
         if (mapOfPlayerHands.size() == 1) {
-            players = new Player[1];
-            players[0] = mapOfPlayerHands.values().stream().findAny().get();
+
+            winnerHandMap = new HashMap<>();
+            winnerHandMap.put(mapOfPlayerHands.values().stream().findAny().get(),winningHand);
         } else {
-           players = findWinnersWithSameValueHands(mapOfPlayerHands);
+           winnerHandMap = findWinnersWithSameValueHands(mapOfPlayerHands);
         }
 
-        System.out.println("Winning hand is " + mapOfPlayerHands.keySet().stream().findAny().get());
-
-        return players;
+        return winnerHandMap;
     }
 
-    private Player[] findWinnersWithSameValueHands(Map<Hand, Player> mapOfPlayerHands) {
+    private Map<Player,Hand> findWinnersWithSameValueHands(Map<Hand, Player> mapOfPlayerHands) {
+
+        Map<Player,Hand> winnerHandMap = new HashMap<>();
 
         List<Player> winningPlayers = new ArrayList<>();
         Hand hand = mapOfPlayerHands.keySet()
@@ -71,49 +87,8 @@ public class ResultsEvaluator {
         mapOfPlayerHands.keySet()
                 .stream()
                 .filter(a -> (a.compareTo(hand) == 0))
-                .forEach(a -> winningPlayers.add(mapOfPlayerHands.get(a)));
-
-
- /*       if (hand instanceof StraightFlush) {
-
-        } else if (hand instanceof FourOfAKind) {
-
-
-        } else if (hand instanceof FullHouse) {
-
-            FullHouse fullHouse = mapOfPlayerHands.keySet()
-                    .stream()
-                    .map(a -> (FullHouse) a)
-                    .max((a, b) -> a.compareTo(b))
-                    .get();
-
-            winningPlayers.add(mapOfPlayerHands.get(fullHouse));
-
-        } else if (hand instanceof Flush) {
-
-        } else if (hand instanceof Straight) {
-
-        } else if (hand instanceof ThreeOfAKind) {
-
-            ThreeOfAKind threeOfAKind = mapOfPlayerHands.keySet()
-                    .stream()
-                    .map(a -> (ThreeOfAKind) a)
-                    .max((a, b) -> a.compareTo(b))
-                    .get();
-            winningPlayers.add(mapOfPlayerHands.get(threeOfAKind));
-
-        } else if (hand instanceof TwoPairs) {
-
-        } else if (hand instanceof Pair) {
-
-        } else if (hand instanceof HighCard) {
-
-        }*/
-
-
-        Player[] winningPlayersArray = new Player[winningPlayers.size()];
-        winningPlayers.toArray(winningPlayersArray);
-        return winningPlayersArray;
+                .forEach(a -> winnerHandMap.put(mapOfPlayerHands.get(a),a));
+        return winnerHandMap;
     }
 
 

@@ -55,9 +55,6 @@ public class ThreeOfAKind implements Hand {
 
     @Override
     public String toString() {
-        return "ThreeOfAKind{" +
-                 rank +
-                ", otherTwoCards=" + otherTwoCards +
-                '}';
+        return "THREE OF A KIND";
     }
 }

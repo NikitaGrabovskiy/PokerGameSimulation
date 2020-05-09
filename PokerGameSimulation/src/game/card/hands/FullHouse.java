@@ -30,10 +30,7 @@ public class FullHouse implements Hand {
 
     @Override
     public String toString() {
-        return "FullHouse{" +
-                "rankOfTreeCards=" + rankOfTreeCards +
-                ", rankOfTwoCards=" + rankOfTwoCards +
-                '}';
+        return "FULL HOUSE";
     }
 
     @Override

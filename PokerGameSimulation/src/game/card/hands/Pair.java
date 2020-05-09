@@ -55,9 +55,6 @@ public class Pair implements Hand {
 
     @Override
     public String toString() {
-        return "Pair{" +
-                rank +
-                ", threeCards=" + threeCards +
-                '}';
+        return "PAIR";
     }
 }

@@ -14,7 +14,7 @@ public interface Player {
 
     void fold();
 
-    void raise();
+    void raise(int bet);
 
     void call();
 
@@ -39,5 +39,7 @@ public interface Player {
     int getNumber();
 
     void setNumber(int number);
+
+    void addToMoneyAmount(int winnings);
 
 }

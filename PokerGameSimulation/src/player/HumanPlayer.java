@@ -52,6 +52,11 @@ public class HumanPlayer implements Player {
         moneyAmount -= deductionAmount;
     }
 
+    @Override
+    public void addToMoneyAmount(int winnings) {
+        moneyAmount +=winnings;
+    }
+
 
     @Override
     public int getMoneyAmount() {
@@ -88,7 +93,7 @@ public class HumanPlayer implements Player {
     }
 
     @Override
-    public void raise() {
+    public void raise(int bet) {
 
     }
 

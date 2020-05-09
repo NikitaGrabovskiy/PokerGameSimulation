@@ -1,15 +1,9 @@
-import display.ListenForButton;
+import display.DisplaySingleAutomaticGame;
 import game.BigGameSession;
 import game.GameVariables;
-import game.card.*;
-import game.gameutil.staticdata.CardSymbols;
-import player.Player;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Map;
 
 public class Main extends JFrame {
 
@@ -17,6 +11,7 @@ public class Main extends JFrame {
 
 
         GameVariables.prepareGameVariablesForBigGameSession();
+        new BigGameSession().playNewGame();
         new Main();
 
 /*        Card card1 = new Card(Rank.EIGHT, Suit.HEARTS);
@@ -93,7 +88,7 @@ public class Main extends JFrame {
         thePanel.setBackground(Color.LIGHT_GRAY);
         thePanel.setLayout(null);
 
-        ListenForButton listenForButton = new ListenForButton(thePanel);
+        DisplaySingleAutomaticGame displaySingleAutomaticGame = new DisplaySingleAutomaticGame(thePanel);
 
         JButton button1 = new JButton("Start game");
         button1.setBorderPainted(true);
@@ -101,7 +96,7 @@ public class Main extends JFrame {
         button1.setFont(button1.getFont().deriveFont(1, 30));
         button1.setForeground(Color.RED);
         button1.setContentAreaFilled(true);
-        button1.addActionListener(listenForButton);
+        button1.addActionListener(displaySingleAutomaticGame);
         thePanel.add(button1);
 
         this.add(thePanel);

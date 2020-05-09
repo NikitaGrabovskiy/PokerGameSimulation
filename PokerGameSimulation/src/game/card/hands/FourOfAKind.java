@@ -24,9 +24,7 @@ public class FourOfAKind implements Hand{
 
     @Override
     public String toString() {
-        return "FourOfAKind{" +
-                 rank +
-                '}';
+        return "FOUR OF A KIND";
     }
 
     @Override

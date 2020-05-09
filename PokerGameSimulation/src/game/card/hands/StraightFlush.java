@@ -47,8 +47,6 @@ public class StraightFlush implements Hand {
 
     @Override
     public String toString() {
-        return "StraightFlush{" +
-                 Arrays.toString(cardsOfStraightFlush) +
-                '}';
+        return "STRAIGHT FLUSH";
     }
 }

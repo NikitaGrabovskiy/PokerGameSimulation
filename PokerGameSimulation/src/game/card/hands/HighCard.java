@@ -40,8 +40,6 @@ public class HighCard implements Hand {
 
     @Override
     public String toString() {
-        return "HighCard{" +
-                 fiveCards +
-                '}';
+        return "HIGH CARD";
     }
 }

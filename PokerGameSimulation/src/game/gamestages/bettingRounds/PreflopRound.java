@@ -5,49 +5,46 @@ import game.GameConstants;
 import game.GameVariables;
 import player.Player;
 
-import java.util.List;
 
-public class PreflopRound extends Round  {
+public class PreflopRound extends Round {
 
-        // FIRST ROUND
+    // FIRST ROUND
+    /// Small blind is the first who will act
 
     public void startRound() {
         GameVariables.prepareGameVariablesForRound();
         setEverythingUpForFirstRound();
+        for (int x = GameVariables.playerWhoPutSmallBlind; x < GameVariables.allPlayers.size(); x++) {
+            GameVariables.allPlayers.get(x).playPreFlopRound();
+        }
+        for (int x = GameVariables.playerWhoPutSmallBlind-1; x >=0; x--) {
+            GameVariables.allPlayers.get(x).playPreFlopRound();
+        }
     }
-
 
     private void setEverythingUpForFirstRound() {
         placeSmallBlind();
         placeBigBlind();
-        giveTwoCardsForEachPlayer(GameVariables.allPlayers);
+        giveTwoCardsForEachPlayer();
     }
 
 
-    private void giveTwoCardsForEachPlayer(List<Player> players) {
-
-        for(int x = 0; x < GameVariables.allPlayers.size();x++){
-
+    private void giveTwoCardsForEachPlayer() {
+        for (int x = 0; x < GameVariables.allPlayers.size(); x++) {
             Player player = GameVariables.allPlayers.get(x);
             player.setTwoCardsInPlayersHands(new TwoCardsInPlayersHands(GameVariables.shuffledDeck.getNextCard(),
                     GameVariables.shuffledDeck.getNextCard()));
         }
-
     }
 
-    private void placeSmallBlind(){
-        GameVariables.moneyPot+= GameConstants.minimalBet;
+    private void placeSmallBlind() {
+        GameVariables.moneyPot += GameConstants.minimalBet;
         GameVariables.allPlayers.get(GameVariables.playerWhoPutSmallBlind).deductAmountFromPlayersMoney(GameConstants.minimalBet);
     }
 
-    private void placeBigBlind(){
-        GameVariables.moneyPot+= 2*GameConstants.minimalBet;
-        int bigBlindPlayerNumber;
-        if((GameVariables.playerWhoPutSmallBlind+1)>GameVariables.allPlayers.size()){
-            bigBlindPlayerNumber = 1;
-        }else {
-            bigBlindPlayerNumber=++GameVariables.playerWhoPutSmallBlind;
-        }
-        GameVariables.allPlayers.get(bigBlindPlayerNumber).deductAmountFromPlayersMoney(2*GameConstants.minimalBet);
+    private void placeBigBlind() {
+        GameVariables.moneyPot += 2 * GameConstants.minimalBet;
+        GameVariables.allPlayers.get(GameVariables.playerWhoPutBigBlind)
+                .deductAmountFromPlayersMoney(2 * GameConstants.minimalBet);
     }
 }

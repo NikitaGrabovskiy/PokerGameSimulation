@@ -29,9 +29,7 @@ public class Flush implements Hand {
 
     @Override
     public String toString() {
-        return "Flush{" +
-                Arrays.toString(cardsOfFlush) +
-                '}';
+        return "FLUSH";
     }
 
     @Override

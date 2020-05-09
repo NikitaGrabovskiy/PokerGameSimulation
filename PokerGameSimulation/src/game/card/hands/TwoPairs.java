@@ -28,6 +28,14 @@ public class TwoPairs implements Hand {
         return value;
     }
 
+    public Rank getRankOfFirstPair() {
+        return rankOfFirstPair;
+    }
+
+    public Rank getRankOfSecondPair() {
+        return rankOfSecondPair;
+    }
+
     @Override
     public int compareTo(Object o) {
         if (RanksValue.rankValues.get(this.rankOfFirstPair) > RanksValue.rankValues.get(((TwoPairs) o).rankOfFirstPair)) {
@@ -54,10 +62,6 @@ public class TwoPairs implements Hand {
 
     @Override
     public String toString() {
-        return "TwoPairs{"+
-                "" + rankOfFirstPair +
-                ", "+ rankOfSecondPair  +
-                        ", fifthCard=" + fifthCard +
-                '}';
+        return "TWO PAIRS";
     }
 }

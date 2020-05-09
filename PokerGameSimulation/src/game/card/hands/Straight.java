@@ -50,8 +50,6 @@ public class Straight implements Hand {
 
     @Override
     public String toString() {
-        return "Straight{ " +
-                 Arrays.toString(cardsOfStraightHand) +
-                " }";
+        return "STRAIGHT";
     }
 }
